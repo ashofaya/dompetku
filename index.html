@@ -255,8 +255,9 @@
     <!-- SUPABASE CLIENT CONFIG & APP LOGIC -->
     <script>
         // INISIALISASI SUPABASE (Ganti dengan URL & Anon Key milikmu)
-        const SUPABASE_URL = 'https://YOUR_SUPABASE_URL.supabase.co';
-        const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY';
+// INISIALISASI SUPABASE DENGAN FORMAT BARU
+        const SUPABASE_URL = 'https://tybowxzqxaaqbbyulbpr.supabase.co'; // (Atau ambil URL lengkap dari tombol Connect)
+        const SUPABASE_ANON_KEY = 'sb_publishable_AtcsNXGFuGCvXmW7RSTLd6W_L4WZ7...'; // Salin lengkap dari kolom Publishable key di layar kamu
         const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
         let currentUser = null;
